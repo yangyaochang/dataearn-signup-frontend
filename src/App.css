@@ -1,5 +1,9 @@
 .App {
+  display: flex;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -36,3 +40,69 @@
     transform: rotate(360deg);
   }
 }
+
+.background-container {
+  z-index: -1;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 100vh;
+  width: auto;
+}
+
+.background-image {
+  height: 100%;
+  width: auto;
+}
+
+.signup-container {
+  z-index: 1;
+}
+
+.logo {
+  width: 100%;
+}
+
+.info {
+  padding: 20px 0px;
+  color: #3d3d3d;
+  font-size: 18px;
+}
+
+.signup-form {
+  width: 380px;
+  height: 460px;
+  padding: 40px 45px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.signup-input {
+  padding-top: 20px;
+}
+
+.form-control {
+  border-radius: 20px !important;
+}
+
+.form-text {
+  margin-top: 5px !important;
+}
+
+.text-msg {
+  color: red;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 20px !important;
+  margin-top: 20px;
+}
+
+.copyright {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+}
+
+
